@@ -1,0 +1,82 @@
+Name: Ka Man Chan
+Class: DGMD E-27
+Assignment: 3
+
+- URL for the assignment web page:
+http://kamanc.siteground.net/DGMD_E27_Assignment3/kamantravel/home.html
+
+- Brower/Operating System combinations:
+PC, Firefox
+
+- Grid:
+	Source ordering
+	- http://kamanc.siteground.net/DGMD_E27_Assignment3/kamantravel/tokyo.html
+	- on lines 37 & 79
+
+- Navigation:
+	Top bar
+	- http://kamanc.siteground.net/DGMD_E27_Assignment3/kamantravel/home.html
+	- starting line 17
+
+- Styling:
+	Buttons
+	- Buttons in "http://kamanc.siteground.net/DGMD_E27_Assignment3/kamantravel/home.html" 
+	- on lines 66, 74, 82 & 90
+
+	Breadcrumbs
+	- Breadcrumbs in "http://kamanc.siteground.net/DGMD_E27_Assignment3/kamantravel/home.html" 
+	- starting line 96
+
+	Thumbnail
+	- Thumbnail in "http://kamanc.siteground.net/DGMD_E27_Assignment3/kamantravel/tokyo.html"
+	- on lines 51,  54 & 57
+
+- Form:
+	- "http://kamanc.siteground.net/DGMD_E27_Assignment3/kamantravel/contact.html" 
+	- starting line 40 
+
+- Interchange:
+	- "http://kamanc.siteground.net/DGMD_E27_Assignment3/kamantravel/home.html"
+	- starting line 39
+
+- JavaScript widgets:
+	Tooltip:
+	- "http://kamanc.siteground.net/DGMD_E27_Assignment3/kamantravel/tokyo.html"
+	- on line 69
+
+	Reveal:
+	- "http://kamanc.siteground.net/DGMD_E27_Assignment3/kamantravel/home.html"
+	- starting line 44
+
+	Tabs:
+	- "http://kamanc.siteground.net/DGMD_E27_Assignment3/kamantravel/tokyo.html"
+	- starting line 40
+
+- Sass: 
+	Change at least 3 variables:
+	1.
+	- $dropdownmenu-border to "2px dotted green" on line 317 in _settings.scss
+
+	2.
+	- $tooltip-background-color to "maroon" on line 558 in _settings.scss
+
+	3.
+	- $tooltip-radius to "1.5em" on line 564 in _settings.scss
+
+	Create at least 3 new styles, or modify existing styles:
+	1.
+	- create $foundation-palette: kamantravelbuttoncolor: #9398cc on line 57 in _settings.scss & on lines 66, 74, 82 & 90 in "http://kamanc.siteground.net/DGMD_E27_Assignment3/kamantravel/home.html" 
+
+	2. 
+	- create $button-sizes: kamantravelbuttonsize: 1rem on line 252 in _settings.scss & on lines 66, 74, 82 & 90 in "http://kamanc.siteground.net/DGMD_E27_Assignment3/kamantravel/home.html"  
+
+	3. 
+	- create $reveal-text-align-center: center on line 466 in _settings.scss & on line 9 in _kamanstyles.scss
+
+- Foundation for Email option: 
+	This option is chosen and the zipped file, kamanemail.zip, is submitted in Canvas.
+
+
+
+
+

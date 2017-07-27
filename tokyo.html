@@ -1,0 +1,149 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foundation | KA MAN TRAVEL</title>
+    <!-- The Tooltip arrow won't show correctly if the link is foundation.min.css. The Tooltip arrow shows up correctly if the link is foundation.css. Please see "https://github.com/zurb/foundation-sites/issues/8057)" -->
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/app.css" />
+  </head>
+  <body>
+
+
+    <!-- <div class="row">
+      <div class="large-12 columns">-->
+        <!-- navigation goes here -->
+     <!-- </div>
+    </div>
+
+    <div class="row">
+      <div class="large-12 columns">-->
+        <!-- Jumbotronish thing here -->
+      <!--</div>
+    </div>-->
+
+
+  <div class="row">
+    <div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
+      <button class="menu-icon" type="button" data-toggle></button>
+      <div class="title-bar-title">Ka Man Travel Menu</div>
+    </div>
+
+        
+    <nav class="top-bar" id="example-menu">
+      <div class="top-bar-left">
+        <ul class="dropdown menu" data-dropdown-menu>
+          <li class="menu-text">Ka Man Travel</li>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="#">Destinations</a>
+                <ul class="menu">
+                  <li><a href="tokyo.html">Tokyo</a></li>
+                  <li><a href="#">Taipei</a></li>
+                  <li><a href="#">Seoul</a></li>
+                  <li><a href="#">Macau</a></li>
+                </ul>
+              </li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+
+
+
+    <div class="row" data-equalizer >
+        <div class="medium-9 medium-push-3 columns callout alert" data-equalizer-watch>
+            <h2>More About Tokyo</h2>
+    		<!-- Foundation Bug - Equalizer plugin not compatible with Tabs; the window must be resized for the equalizer to work for tabs. Please see "https://github.com/zurb/foundation-sites/issues/5422" & 
+			"http://stackoverflow.com/questions/35183357/equalizing-within-tabs-foundation-6"-->
+            <ul class="tabs" data-tabs id="moreDetailsTabs" >
+                <li class="tabs-title is-active"><a href="#aboutTokyo">About</a></li>
+                <li class="tabs-title" ><a href="#tokyoFood">Food</a></li>
+                <li class="tabs-title" ><a href="#tokyoWeather">Weather</a></li>
+                <li class="tabs-title" ><a href="#tokyoPhotos">Photos</a></li>
+            </ul>
+            <div class="tabs-content" data-tabs-content="moreDetailsTabs">
+            
+              	<div id="aboutTokyo" class="tabs-panel is-active callout warning">
+                  <h3>ABOUT TOKYO</h3>
+                  <p>Tokyo is the capital and the largest city of Japan.
+	        		The city is super busy, and yet very beautiful and clean. The city is full of tall skyscrapers and the people in Tokyo are always in hustle and bustle. The streets are unbelieveable clean all the times. The Japanese food is good and the people there are nice. Tokyo is very fun to visit and you don't want to miss it! </p>
+              	</div>
+              	<div id="tokyoFood" class="tabs-panel callout warning">
+                  	<h3>TOKYO FOOD</h3>
+                  	<p>Japanese food are not only tasty, but also look pretty. The traditional foods are rice, ramen, miso soup, fish, vegetable, etc. The sushi, with raw fish on top of the rice, is also very popular in Japan. Since Japan is an island nation which is surrounded by an ocean, it has abundant supply of fresh seafood. The typical seasonings include dashi, soy sauce, 
+
+                  	<span data-tooltip aria-haspopup="true" class="has-tip" data-disable-hover='false' tabindex=1 title="A special Japanese marinate sauce for cooking.">mirin</span>,
+
+           			vinegar, sugar and salt. The Japapense cooking techniques are raw, grilled, simmered, steamed, deep-fried and vinegared. Japanese cuisine are beautiful and delicious! </p>
+              	</div>
+              	<div id="tokyoWeather" class="tabs-panel callout warning">
+                  <h3>TOKYO WEATHER</h3>
+                  <p>Tokyo has humid subtropical climate. It has fairly dry winters and warm and wet summers. Usually, the month August is the hottest month and the month of January is the coldest month. Snowfall is common in winter. The rainfall is seen in the months of March to October. In general, Tokyo has moderate and comfortable climate year around. </p>
+              	</div>
+              	<div id="tokyoPhotos" class="tabs-panel callout warning">
+
+                  <h3>TOKYO PHOTOS</h3>
+					<div class="row">
+
+						<div class="medium-4 small-12 columns">
+							<img class="thumbnail" src="http://lorempixel.com/200/250/city/" alt="Travel Image">
+						</div>
+						<div class="medium-4 small-12 columns" >
+							<img class="thumbnail" src="http://lorempixel.com/200/250/city/" alt="Travel Image">
+						</div>
+						<div class="medium-4 small-12 columns" >
+							<img class="thumbnail" src="http://lorempixel.com/200/250/city/" alt="Travel Image">
+						</div>
+					</div>
+    			</div>
+        	
+        	</div>
+    	</div>
+      
+
+
+	    <aside class="medium-3 medium-pull-9 columns" data-equalizer-watch>
+		    <!--<div class="callout primary small" data-equalizer-watch>-->
+		      <h3>Places where we visited:</h3>
+		      <ul>
+		        <li>Tokyo, Japan</li>
+		        <li>Taipei, Taiwan</li>
+		        <li>Seoul, South Korea</li>
+		        <li>Macau, China</li>
+		      </ul>
+		      <h3>Places where we plan to go:</h3>
+		      <ul>
+		        <li>Singapore, Singapore</li>
+		        <li>Bangkok, Thailand</li>
+		        <li>Hanon, Vietnam</li>
+		      </ul>
+		    <!--</div>-->
+		</aside>
+	</div>
+
+
+    <footer class="row">
+      <div class="large-12 columns">
+        <nav aria-label="You are here: " role="navigation">
+        <ul class="breadcrumbs">
+          <li><a href="home.html">Home</a></li>
+          <li><span class="show-for-sr">Current: </span>Destination > Tokyo</li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        </nav>
+      </div>
+      <div class="large-12 columns">
+        <p>&copy; 2017 Ka Man Travel. All rights reserved.</p>
+      </div>   
+    </footer>
+
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/vendor/what-input.min.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>       
