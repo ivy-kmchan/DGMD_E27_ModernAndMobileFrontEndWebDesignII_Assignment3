@@ -1,0 +1,166 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foundation | KA MAN TRAVEL</title>
+    <link rel="stylesheet" href="css/foundation.min.css" />
+    <link rel="stylesheet" href="css/app.css" />
+  </head>
+  <body>
+    <div class="row">
+      <div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
+        <button class="menu-icon" type="button" data-toggle></button>
+        <div class="title-bar-title">Ka Man Travel Menu</div>
+      </div> 
+
+    <nav class="top-bar" id="example-menu">
+      <div class="top-bar-left">
+        <ul class="dropdown menu" data-dropdown-menu>
+          <li class="menu-text">Ka Man Travel</li>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="#">Destinations</a>
+                <ul class="menu">
+                  <li><a href="tokyo.html">Tokyo</a></li>
+                  <li><a href="#">Taipei</a></li>
+                  <li><a href="#">Seoul</a></li>
+                  <li><a href="#">Macau</a></li>
+                </ul>
+              </li>
+          <li><a href="contact.html">Contact and Itinerary</a></li>
+        </ul>
+      </div>
+    </nav>
+    </div>
+    <div class="row" data-equalizer >
+        <div class="medium-9 medium-push-3 columns" data-equalizer-watch>
+          <h2>Contact and Itinerary Request Form</h2>
+          <!-- Per Assignment 3, this form does not need to submit -->
+          <form data-abide novalidate>
+            <div data-abide-error class="callout alert" style="display: none;">
+              <p><i class="fi-alert"></i> There are some errors in your form.</p>
+            </div>
+            <div class="row">
+              <div class="small-12 medium-10 large-8 columns end">
+                <label>Name (required)
+                  <input type="text" placeholder="Please enter your name." required pattern="text">
+                  <!-- aria-describedby="exampleHelpText" -->
+                  <span class="form-error">
+                    Name is required. Please enter.
+                  </span>
+                </label>
+              </div>
+            </div> 
+            <div class="row"> 
+              <div class="small-12 medium-10 large-8 columns end">
+                <label>Email (required)
+                  <input type="email" placeholder="Please enter your email address."  required pattern="email">
+                  <!-- aria-describedby="exampleHelpText"-->
+                  <span class="form-error">
+                    Email is required. Please enter.
+                  </span>
+                </label>
+              </div>
+            </div>
+            <div class="row"> 
+              <div class="small-12 medium-10 large-8 columns end">
+                <label>Telephone Number
+                  <input type="tel" placeholder="Please enter your telephone number.">
+                </label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="small-12 medium-10 large-8 columns end">
+                <label>How many of these cities have you visited before? (Tokyo, Taipei, Seoul and/or Macau)
+                  <select>
+                    <option value="zero">0</option>
+                    <option value="one">1</option>
+                    <option value="two">2</option>
+                    <option value="three">3</option>
+                    <option value="four">4</option>
+                  </select>
+                </label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="small-12 medium-10 large-8 columns end">
+              <fieldset class="fieldset">
+                <legend>Which trip's itinerary do you like to request?</legend>
+                <div class="row">
+                  <div class="small-12 medium-10 large-8 columns end">
+                    <input id="checkbox1" type="checkbox"><label for="checkbox1">Tokyo, Japan</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="small-12 medium-10 large-8 columns end">
+                    <input id="checkbox2" type="checkbox"><label for="checkbox2">Taipei, Taiwan</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="small-12 medium-10 large-8 columns end">
+                    <input id="checkbox3" type="checkbox"><label for="checkbox3">Seoul, South Korea</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="small-12 medium-10 large-8 columns end">
+                    <input id="checkbox4" type="checkbox"><label for="checkbox4">Macau, China</label>
+                  </div>
+                </div>
+              </fieldset>
+              </div>
+            </div>
+            <div class="row">
+              <div class="small-12 medium-10 large-8 columns end">
+                <label>Comments and/or Suggestions?
+                  <textarea placeholder="Please let us know if you have any comments."></textarea>
+                </label>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="small-12 medium-10 large-8 columns end">
+                <button id="submitButton" type="submit" value="submit" class="success button large">Submit</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      <aside class="medium-3 medium-pull-9 columns">
+        <div class="callout primary small" data-equalizer-watch>
+          <h3>Places where we visited:</h3>
+          <ul>
+            <li>Tokyo, Japan</li>
+            <li>Taipei, Taiwan</li>
+            <li>Seoul, South Korea</li>
+            <li>Macau, China</li>
+          </ul>
+          <h3>Places where we plan to go:</h3>
+          <ul>
+            <li>Singapore, Singapore</li>
+            <li>Bangkok, Thailand</li>
+            <li>Hanon, Vietnam</li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+  <footer class="row">
+    <div class="large-12 columns">
+      <nav aria-label="You are here: " role="navigation">
+      <ul class="breadcrumbs">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="tokyo.html">Destinations> Tokyo</a></li>
+        <li><span class="show-for-sr">Current: </span> Contact and Itinerary</li>
+      </ul>
+      </nav>
+    </div>
+    <div class="large-12 columns">
+      <p>&copy; Foundation | 2016 Ka Man Travel. All rights reserved.</p>
+    </div>   
+  </footer>
+
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/vendor/what-input.min.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

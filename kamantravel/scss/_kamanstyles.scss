@@ -1,0 +1,37 @@
+// Ka Man Travel styles.
+
+/* gulp doesn't recognize partial file such as _settings.scss sporadically. We must restart process or the workaround is to modify _settings.scss and save all files. This workaround sometimes works, and sometimes doesn't. Please see "https://github.com/zurb/foundation-emails/issues/282" */
+
+.tabs-title{
+     font-variant: $tab-title-font-variant;
+  }
+
+.reveal{
+    text-align: $reveal-text-align-center;
+  }
+
+footer {
+  	padding: 2em 0;
+  	margin: 3em 0;
+  	border-top: 1px solid $dark-gray;
+  	color: $dark-gray;
+  	text-align: center;
+}
+
+.no-js .top-bar{
+    display: none;
+}
+
+@media screen and (min-width: 40em){
+    .no-js .top-bar{
+    display: block;
+    }
+
+    .no-js .top-bar{
+    display: none;
+    }
+}
+
+
+
+
